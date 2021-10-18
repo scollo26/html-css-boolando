@@ -28,12 +28,6 @@ section{
     margin: 0% auto;
 
 }
-/* .container{
-    background-color: blue;
-    height: auto;
-    margin-top: 10%;
-    
-} */
 
 .container-ins{
     width: 25%;
@@ -55,6 +49,7 @@ section{
 
 h1{
     font-size: 100%;
+    font-weight: bold;
 }
 
 .img-1{
@@ -92,18 +87,18 @@ h1{
 }
 
 .rettangolo-sconto{
+    position: absolute;
     width: 40px;
     height: 30px;
     top: 500px;
     background-color: #EB0037;
     color: white;
     text-align: center;
-    padding-top: 6px;
-    position: absolute;
-    z-index: 100;
+    padding-top: 6px;  
 }
 
 .rettangolo-sostenibilita{
+    position: absolute;
     width: 90px;
     height: 30px;
     top: 500px;
@@ -112,6 +107,17 @@ h1{
     color: white;
     text-align: center;
     padding-top: 6px;
+}
+
+.rettangolo-sost-last{
     position: absolute;
-    z-index: 100;
+    width: 90px;
+    height: 30px;
+    top: 500px;
+    left: 0px;
+    background-color: #00875A;
+    color: white;
+    text-align: center;
+    padding-top: 6px;
+    
 }
