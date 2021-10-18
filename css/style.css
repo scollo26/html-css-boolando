@@ -42,12 +42,6 @@ section{
     /* background-color: blueviolet; */
 }
 
-.container-primo{
-    width: 25%;
-    height: 25em;
-    margin: 10% 0 0% 10px;
-    /* background-color: blueviolet; */
-}
 
 .marg{
     margin: 5% 0 0 0;
@@ -55,6 +49,8 @@ section{
 .resize{
     width: 100%;
     height: auto;
+    background-size: cover;
+    background-position: center;
 }
 
 h1{
@@ -69,9 +65,6 @@ h1{
     display: none;
 }
 
-#cambio-img{
-
-}
 
 #cambio-img:hover .img-1{
     display: none;
@@ -81,20 +74,44 @@ h1{
     display: block;
 }
 
-/* .relative{
+.relative{
     position: relative;
-    border: 3px solid #73AD21;
-    width: 20px;
-    height: 20px;
-    top: 10%;
-    left: 50%;
-} */
+}
 
-/* .abs{
+
+.square{
+    width: 30px;
+    height: 30px;
+    background-color: white;
     position: absolute;
-    width: 20px;
-    height: 20px;
-    border: 3px solid #73AD21;
-    background-color: red;
-    left: 5%;
-} */
+    top: 28px;
+    right: 0;
+    text-align: center;  
+    font-size: 20px;
+    z-index: 100;
+}
+
+.rettangolo-sconto{
+    width: 40px;
+    height: 30px;
+    top: 500px;
+    background-color: #EB0037;
+    color: white;
+    text-align: center;
+    padding-top: 6px;
+    position: absolute;
+    z-index: 100;
+}
+
+.rettangolo-sostenibilita{
+    width: 90px;
+    height: 30px;
+    top: 500px;
+    left: 45px;
+    background-color: #00875A;
+    color: white;
+    text-align: center;
+    padding-top: 6px;
+    position: absolute;
+    z-index: 100;
+}
