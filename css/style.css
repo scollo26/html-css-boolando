@@ -1,5 +1,5 @@
 *{
-    margin:0%;
+    margin:10px;
     padding: 0%;
     box-sizing: border-box;
 }
@@ -16,6 +16,7 @@ html{
 
 .float-s{
     float: left;
+    width: 33%;
 }
 
 .red{
@@ -24,7 +25,7 @@ html{
 }
 
 section{
-    width: 60%;
+    width: 50%;
     margin: 0% auto;
 
 }
@@ -32,7 +33,7 @@ section{
 .container-ins{
     width: 25%;
     height: auto;
-    margin: 0% 20px 20px 0;
+    margin: 0% 20px 0px 0;
     position: relative;
     /* background-color: blueviolet; */
 }
@@ -46,6 +47,7 @@ section{
     height: auto;
     background-size: cover;
     background-position: center;
+    overflow: hidden;
 }
 
 h1{
@@ -54,24 +56,26 @@ h1{
 }
 
 .img-1{
-    display: block;
+    /* display: block; */
+    width: 100%;
 }
 
 .img-2{
     display: none;
+    width: 100%;
 }
 
-#cambio-img{
+.cambio-img{
     overflow: hidden;
     height: 400px;
 }
 
 
-#cambio-img:hover .img-1{
+.cambio-img:hover .img-1{
     display: none;
 }
     
-#cambio-img:hover .img-2 {
+.cambio-img:hover .img-2 {
     display: block;
 }
 
@@ -95,7 +99,7 @@ h1{
     position: absolute;
     width: 40px;
     height: 30px;
-    bottom: 0%;
+    bottom: 20%;
     background-color: #EB0037;
     color: white;
     text-align: center;
@@ -106,7 +110,7 @@ h1{
     position: absolute;
     width: 90px;
     height: 30px;
-    bottom: 0%;
+    bottom: 20%;
     left: 45px;
     background-color: #00875A;
     color: white;
@@ -118,7 +122,7 @@ h1{
     position: absolute;
     width: 90px;
     height: 30px;
-    bottom: 0%;
+    bottom: 20%;
     left: 0px;
     background-color: #00875A;
     color: white;
